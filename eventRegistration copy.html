@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Registration Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        
+        <h2>Game Registration Form</h2>
+        <form id="registrationForm">
+            <div class="form-group">
+                <input type="text" id="firstName" placeholder="First Name" required>
+            </div>
+            <div class="form-group">
+                <input type="text" id="lastName" placeholder="Last Name" required>
+            </div>
+            <div class="form-group">
+                <input type="date" id="es" placeholder="event start" required>
+                <input type="date" id="ed" placeholder="event end" required>
+            </div>
+            <div class="form-group">
+                <select id="gameSelection" required>
+                    <option value="" disabled selected>Select Game</option>
+                    <option value="football">Football</option>
+                    <option value="basketball">Basketball</option>
+                    <option value="cricket">Cricket</option>
+                    <option value="tennis">Tennis</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <input type="text" id="location" placeholder="Location" required>
+            </div>
+            <div class="form-group">
+                <input type="text" id="skills" placeholder="Skills" required>
+            </div>
+            <div class="form-group">
+                <input type="text" id="mobileOrEmail" placeholder="Mobile Number or Email ID" required>
+            </div>
+            <button type="submit" class="btn">Register</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

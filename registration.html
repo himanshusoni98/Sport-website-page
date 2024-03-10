@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sports Enthusiasts - Registration</title>
+<link rel="stylesheet" href="Form.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Sports Enthusiasts</h1>
+
+    <div class="form-container" id="registrationForm">
+        <h2>Registration</h2>
+        <form>
+            <input type="text" id="regUsername" placeholder="Username" required>
+            <br>
+            <input type="text" id="regEmail" placeholder="Email id" required>
+            <br>
+            <input type="password" id="regPassword" placeholder="Password" required>
+            <br>
+            <input type="password" id="regConfirmPassword" placeholder="Confirm Password" required>
+            <br>
+            <input type="submit" value="Register">
+            <p class="error-message" id="regErrorMessage"></p> <!-- Registration error message placeholder -->
+        </form>
+        <p>Already have an account? <a href="Form_Log.html">Sign In</a></p>
+    </div>
+</div>
+
+<script src="Form.js"></script>
+</body>
+</html>
